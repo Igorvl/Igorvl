@@ -3,9 +3,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   github-metrics:
@@ -18,7 +15,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
-          base: header, activity, repositories
+          base: ""
           config_timezone: Europe/Moscow
           
           # Круговая диаграмма языков (Pie Chart) с фильтром
@@ -26,9 +23,6 @@ jobs:
           plugin_languages_ignored: html, css, javascript, jupyter notebook, svg
           plugin_languages_limit: 4
           
-          # Радарная диаграмма активности
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
+          # 3D "Город" (Isometric Calendar) на полгода, чтобы скрыть пустые периоды
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
