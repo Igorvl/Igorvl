@@ -15,7 +15,7 @@ I specialize in architecting high-load systems and deploying localized AI infras
 
 ### 🔥 GitHub Activity & MLOps DNA
 
-  <img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/github-metrics.svg" alt="Metrics" width="800">
+  <img src="github-metrics.svg" alt="Metrics" width="800">
 
 ---
 
