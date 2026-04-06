@@ -36,12 +36,15 @@ jobs:
             /* --- Text: inherit default sizes but set color --- */
             svg {
               color: #c9d1d9;
+              font-size: 13px !important;
             }
 
             /* --- Section headers: GitHub blue accent (Barry-style) --- */
             h1, h2, h3 {
               color: #58a6ff;
             }
+            h2 { font-size: 14px !important; }
+            h3 { font-size: 13px !important; }
 
             /* --- Muted / secondary text --- */
             footer,
@@ -70,11 +73,11 @@ jobs:
             [fill="#30a14e"] { fill: #26a641 !important; }
             [fill="#216e39"] { fill: #39d353 !important; }
 
-            /* Language bar background (remove loud white border block) */
-            rect[fill="white"] { fill: #0d1117 !important; }
+            /* Language bar background */
+            rect[fill="white"] { fill: #2d333b !important; }
 
             /* Language bar empty space progress (d1d5da -> github dark border) */
-            rect[fill="#d1d5da"] { fill: #30363d !important; }
+            rect[fill="#d1d5da"] { fill: #161b22 !important; }
 
           # -----------------------------------------------
           # 6-month isometric 3D calendar
@@ -88,6 +91,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, javascript, jupyter notebook, svg
           plugin_languages_limit: 4
+          # Override default dark colors with bright neon equivalents:
+          plugin_languages_colors: "Python:#58a6ff, Shell:#39d353, PHP:#a371f7, PLpgSQL:#e3b341"
 
           # plugin_habits removed — causes "Unexpected error"
           # due to insufficient recent events for analysis.
