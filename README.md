@@ -1,4 +1,4 @@
-# Hi, I'm Igor 👋
+﻿# Hi, I'm Igor 👋
 **Infrastructure Engineer | AI Infrastructure Expert**
 
 I specialize in architecting high-load systems and deploying localized AI infrastructure. My focus is on building secure, independent, and high-performance environments for Large Language Models (LLMs) in the 2026 landscape.
@@ -16,7 +16,7 @@ I specialize in architecting high-load systems and deploying localized AI infras
 
 <!-- Primary: lowlighter/metrics — IsoCalendar (6 months) + Languages + Habits -->
 <!-- Dark background via extras_css, relative path bypasses Camo CDN cache -->
-<img src="./github-metrics.svg?v=3" alt="GitHub Metrics" width="800">
+<img src="./github-metrics.svg?v=4" alt="GitHub Metrics" width="800">
 
 </div>
 
