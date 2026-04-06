@@ -16,7 +16,7 @@ I specialize in architecting high-load systems and deploying localized AI infras
 
 <!-- Primary: lowlighter/metrics — IsoCalendar (6 months) + Languages + Habits -->
 <!-- Dark background via extras_css, relative path bypasses Camo CDN cache -->
-<img src="./github-metrics.svg?v=4" alt="GitHub Metrics" width="800">
+<img src="./github-metrics.svg?v=5" alt="GitHub Metrics" width="800">
 
 </div>
 
