@@ -17,6 +17,7 @@ jobs:
           template: classic
           base: ""
           config_timezone: Europe/Moscow
+          config_font: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji"
           
           # Круговая диаграмма языков (Pie Chart) с фильтром
           plugin_languages: yes
