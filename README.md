@@ -27,7 +27,7 @@ I specialize in architecting high-load systems and deploying localized AI infras
 * **Operating Systems**: Linux (Ubuntu/Debian), Bash scripting for automation.
 * **Storage Management**: Advanced LVM configuration (on-the-fly scaling) & Object Storage (MinIO).
 * **Containerization**: Docker & Docker Compose.
-* **AI Infrastructure (LLM Ops)**: Ollama, DeepSeek-R1, Llama 3.2, Qwen 2.5, LiteLLM (Gateway/Circuit Breakers), n8n.
+* **AI Infrastructure (LLM Ops)**: Ollama, DeepSeek-R1, Llama 3.3, Qwen 3.6+, LiteLLM (Gateway/Circuit Breakers), n8n.
 * **Vector DBs & RAG**: Qdrant, FastEmbed.
 
 ---
