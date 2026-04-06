@@ -15,10 +15,7 @@ I specialize in architecting high-load systems and deploying localized AI infras
 
 ### 🔥 GitHub Activity & MLOps DNA
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Igorvl&show_icons=true&theme=dracula&count_private=true&hide_title=true&bg_color=0D1117&border_color=30363D&hide_rank=true" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Igorvl&layout=compact&theme=dracula&hide=html,css,svg,javascript,jupyter%20notebook&bg_color=0D1117&border_color=30363D" width="48%">
-</div>
+  <img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/github-metrics.svg" alt="Metrics" width="800">
 
 ---
 
