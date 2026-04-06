@@ -17,9 +17,9 @@ I specialize in architecting high-load systems and deploying localized AI infras
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/github-metrics.svg" alt="Metrics" width="800">
+<img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/github-metrics.svg" alt="Metrics" width="1200">
 <br>
-<img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/profile-3d-contrib/profile-night-view.svg" alt="3D Profile" width="800">
+<img src="https://raw.githubusercontent.com/Igorvl/Igorvl/main/profile-3d-contrib/profile-night-view.svg" alt="3D Profile" width="1200">
 
 </div>
 
