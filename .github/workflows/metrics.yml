@@ -17,13 +17,59 @@ jobs:
           template: classic
           base: ""
           config_timezone: Europe/Moscow
-          config_font: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji"
-          
-          # Круговая диаграмма языков (Pie Chart) с фильтром
+          config_animations: no
+
+          # -----------------------------------------------
+          # Dark background — Barry-style dark theme
+          # Template uses HTML inside <foreignObject>, so we target
+          # the .items-wrapper div and override CSS color properties.
+          # -----------------------------------------------
+          extras_css: |
+            /* Dark canvas — match GitHub dark mode (#0d1117) */
+            .items-wrapper {
+              background-color: #0d1117;
+            }
+            /* Base text: was #777777, now light grey */
+            svg {
+              color: #c9d1d9;
+            }
+            /* Section headers (Languages, Contributions calendar, etc.)
+               Use GitHub blue-ish to match Barry's accent style */
+            h1, h2, h3 {
+              color: #58a6ff;
+            }
+            /* Muted text elements */
+            footer,
+            .footnote,
+            .h-details,
+            .field.language.details small,
+            .chart-bars .entry {
+              color: #6e7681;
+            }
+            /* Octicons / plugin icons */
+            .field svg {
+              fill: #8b949e;
+            }
+
+          # -----------------------------------------------
+          # 6-month isometric 3D calendar (half-year)
+          # -----------------------------------------------
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # -----------------------------------------------
+          # Language distribution — top 4, no frontend noise
+          # Shows: Python, Shell, PHP, PLpgSQL
+          # -----------------------------------------------
           plugin_languages: yes
           plugin_languages_ignored: html, css, javascript, jupyter notebook, svg
           plugin_languages_limit: 4
-          
-          # 3D "Город" (Isometric Calendar) на полгода, чтобы скрыть пустые периоды
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+
+          # -----------------------------------------------
+          # Commit habits (streaks + commits per day stats)
+          # -----------------------------------------------
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
