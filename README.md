@@ -40,8 +40,8 @@ Architecting zero-downtime, automated AI pipelines, LLM Circuit Breakers, and Ba
 * **Frontend Resilience**: Bypassed strict WebKit Content Security Policies (CSP) via in-memory injection scripts, stabilizing cross-platform OS-level AI capture.
 * **Warm Standby (Disaster Recovery)**: Deployed redundant mirror clusters with `< 30s` RTO across Synology NAS devices utilizing Zero-Downtime alias networking protocols.
 
-**2. ai-infrastructure-lab**
-A comprehensive documentation of my home-lab setup designed for running private AI models.
+**2. [ai-infrastructure-lab](https://github.com/Igorvl/ai-infrastructure-lab)**
+Comprehensive architecture and blueprints of a Production-Grade On-Premise AI Business Lab designed for running private, autonomous models.
 * **Automation**: Bash-based telemetry and resource monitoring via Prometheus + Grafana.
 * **Case Study**: Solving storage bottlenecks for 14b+ models using LVM.
 * **Hardware**: Optimized for 24-core CPU inference with 64GB RAM.
