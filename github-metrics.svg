@@ -61,12 +61,18 @@ rect[fill="white"] { fill: #2d333b !important; }
 /* Language bar empty space progress (d1d5da -&gt; github dark border) */
 rect[fill="#d1d5da"] { fill: #161b22 !important; }
 
-/* --- 3D City (Isocalendar): full size scale(4.0) without clipping --- */
+/* --- Hide redundant "Contributions calendar" header & icon --- */
+section:last-of-type > h2.field {
+  display: none !important;
+}
+
+/* --- 3D City (Isocalendar): full size scale(4.0) with clean layout --- */
 svg[viewBox*="170"] {
   overflow: visible !important;
+  margin-top: -125px !important;
 }
 svg[viewBox*="170"] > g {
-  transform: scale(4.0) translate(12px, -4px) !important;
+  transform: scale(4.0) translate(12px, 0px) !important;
   transform-origin: 0 0 !important;
   transform-box: view-box !important;
 }</style>
