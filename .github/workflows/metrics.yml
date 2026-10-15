@@ -85,6 +85,16 @@ jobs:
             /* Language bar empty space progress (d1d5da -> github dark border) */
             rect[fill="#d1d5da"] { fill: #161b22 !important; }
 
+            /* --- 3D City (Isocalendar): fit entire city cleanly without cutting towers --- */
+            svg[viewBox*="170"] {
+              overflow: visible !important;
+            }
+            svg[viewBox*="170"] > g {
+              transform: scale(3.2) translate(18px, 6px) !important;
+              transform-origin: 0 0 !important;
+              transform-box: view-box !important;
+            }
+
           # -----------------------------------------------
           # 6-month isometric 3D calendar
           # -----------------------------------------------
