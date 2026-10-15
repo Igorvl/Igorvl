@@ -85,12 +85,12 @@ jobs:
             /* Language bar empty space progress (d1d5da -> github dark border) */
             rect[fill="#d1d5da"] { fill: #161b22 !important; }
 
-            /* --- 3D City (Isocalendar): fit entire city cleanly without cutting towers --- */
+            /* --- 3D City (Isocalendar): full size scale(4.0) without clipping --- */
             svg[viewBox*="170"] {
               overflow: visible !important;
             }
             svg[viewBox*="170"] > g {
-              transform: scale(3.2) translate(18px, 6px) !important;
+              transform: scale(4.0) translate(12px, -4px) !important;
               transform-origin: 0 0 !important;
               transform-box: view-box !important;
             }
